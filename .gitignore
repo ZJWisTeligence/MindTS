@@ -1,0 +1,34 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+
+# Local model weights and downloaded checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Experiment outputs and machine-specific logs
+result/
+repro/logs/
+repro/__pycache__/
+*.log
+*.bak
+
+# Local environment and editor files
+.env
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+
+# Local datasets and collected text. Remove this line only when redistribution is permitted.
+dataset/anomaly_detect/data/
